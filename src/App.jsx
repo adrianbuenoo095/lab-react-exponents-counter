@@ -9,7 +9,6 @@ import ExponentTwo from "./components/ExponentTwo";
 
 function App() {
   const [count, setCount] = useState(0);
-  // const [activeIndex, setActiveIndex] = useState(0);
   const handleIncrement = () => setCount((prevCount) => prevCount + 1)
   const handleDecrement = () => setCount((prevCount) => prevCount - 1)
   const result = count;
